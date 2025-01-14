@@ -29,4 +29,23 @@ descubierto a principios de septiembre de 2014 y recibió amplia atención de lo
 serie de ciberataques en Internet.11​12​13​ Los parches para corregir los errores se pusieron a disposición poco 
 después de que se identificaron los errores.
 
+c02
+--
+
+https://www.hostinger.mx/tutoriales/bash-script-linux
+
+Bash Script: qué es, cómo escribir uno y ejemplos
+Si alguna vez has utilizado un sistema operativo Linux, como la mayoría de los VPS (servidores privados virtuales), 
+es posible que hayas oído hablar de bash. Este es un intérprete Unix que lee y ejecuta varios comandos.
+
+Cuando necesites ejecutar varios comandos bash, no tienes que ejecutarlos manualmente de uno en uno. En su lugar, es 
+posible crear un archivo de script que contenga funciones bash para ejecutar esos comandos.
+
+Puede parecer complicado, pero aprendiendo sus fundamentos, entenderás el lenguaje de script bash y descubrirás cómo 
+puede ayudarte en tu flujo de trabajo.
+
+Este artículo cubrirá el proceso de script bash. Repasaremos todo, desde los comandos bash, hasta la ejecución de un 
+programa bash en un terminal Linux.
+
+
 
