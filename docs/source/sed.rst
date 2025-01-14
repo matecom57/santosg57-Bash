@@ -168,4 +168,59 @@ Note: This tutorial uses the GNU version of sed found on Ubuntu and other Linux 
 macOS, you’ll have the BSD version which has different options and arguments. You can install the GNU version of sed 
 with Homebrew using brew install gnu-sed.
 
+c03
+--
+
+https://thevaluable.dev/sed-cli-practical-guide-examples/
+
+The sun is shining today; too bad, you’re stuck in the office of your beloved company, MegaCorpMoneyMaker. Your task 
+is to delete specific lines across thousands of XML files; it’s the “API” of an external warehouse, and, as always, 
+they screwed it up.
+
+You begin to write a script using your favorite programming language, when suddenly Davina, your colleague 
+developer, comes to your desk:
+
+“You know that you don’t have to write a script to do that? You could simply use sed in your terminal.”
+
+You used sed in the past, but only to substitute some words with others. How could Davina delete specific lines 
+depending on their content? You don’t have time to think more: Davina is already on your keyboard.
+
+“It’s super easy. I’ll show you!”
+
+Curious to learn more, you let her explain what sed is all about. This article is the transcription of this magical 
+day which changed the world.
+
+More specifically, Davina explained the following:
+
+What argument we can give to sed.
+What’s a sed script.
+How to write the input file in place.
+How to use an address in a sed script to edit specific lines.
+How to use the commands print and delete.
+How to invert the address.
+How to use more than one command in a sed script.
+How to use the substitute command.
+As the title suggest, we’ll focus on GNU sed in this article. If you don’t have it, I’d recommend you to install and 
+use it. To know if you have GNU sed, simply run sed --version in your shell; if it doesn’t work, you don’t have it. 
+If it does work, you’ll get the information you seek.
+
+Also, if you prefer watching videos instead of reading, you’ll find two at the end of this article, recorded by your 
+humble servant.
+
+Last thing: you can download the companion file if you want to follow along and try by yourself the different 
+commands. I’d recommend you to do so, to remember what we’ll see here, and be able to use sed in different contexts.
+
+It’s time! Get your diving gear and let’s explore the intricate caves of our stream of text.
+
+The Basics of sed
+Let’s begin by the obvious: what on Earth does “sed” mean? This lovely name is for stream editor. It’s indeed an 
+editor which follows this workflow:
+
+Take a stream of text as input.
+Select some specific lines.
+Perform some operations on each line selected.
+Output the resulting text.
+The second and third steps are done thanks to a sed script. We’ll look at this concept later; first, let’s look at 
+what arguments we can give to sed in our shell.
+
 

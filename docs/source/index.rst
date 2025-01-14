@@ -21,4 +21,5 @@ Contents
    usage
    bash
    sed
+   awk
    api
