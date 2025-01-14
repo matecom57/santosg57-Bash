@@ -20,4 +20,5 @@ Contents
 
    usage
    bash
+   sed
    api
