@@ -30,7 +30,8 @@ serie de ciberataques en Internet.11​12​13​ Los parches para corregir los 
 después de que se identificaron los errores.
 
 c02
---
+
+---
 
 https://www.hostinger.mx/tutoriales/bash-script-linux
 
@@ -46,6 +47,27 @@ puede ayudarte en tu flujo de trabajo.
 
 Este artículo cubrirá el proceso de script bash. Repasaremos todo, desde los comandos bash, hasta la ejecución de un 
 programa bash en un terminal Linux.
+
+
+c03
+  
+---
+
+
+https://www.datacamp.com/es/tutorial/how-to-write-bash-script-tutorial
+
+El intérprete de comandos o shell es un tipo de programa informático que presenta una interfaz con el sistema 
+operativo. El nombre shell se debe a que es la capa más externa del sistema operativo. 
+
+Para gestionar la interacción entre los usuarios y el sistema operativo, el shell solicita una entrada y luego la 
+interpreta para el sistema operativo antes de manejar cualquier salida que reciba. Esta entrada puede proporcionarse 
+mediante una interfaz de línea de comandos (CLI) o una interfaz gráfica de usuario (GUI), según la operación y el 
+papel que asuma el ordenador.
+
+Consulta nuestro artículo ¿Qué es Shell? para profundizar en qué es un shell y cómo puede ayudarte. 
+
+Esencialmente, un shell permite a los usuarios y a otros programas comunicarse directamente con los componentes de 
+un sistema operativo.
 
 
 
