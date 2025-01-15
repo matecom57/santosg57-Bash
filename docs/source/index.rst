@@ -19,6 +19,7 @@ Contents
 .. toctree::
 
    usage
+   temario
    bash
    sed
    awk
