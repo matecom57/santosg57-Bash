@@ -1,0 +1,16 @@
+Chapter 1. Shell Programming!
+=============================
+
+* Un conocimiento práctico de scripts de shell es esencial para cualquiera que desee llegar a ser razonablemente competente en la administración de sistemas, 
+
+* Considere que cuando se inicia una máquina Linux, ejecuta los scripts de shell en /etc/rc.d para restaurar la configuración del sistema y configurar los servicios.
+
+* Los scripts de Shell se remontan a la filosofía clásica de UNIX de dividir proyectos complejos en subtareas más simples, de encadenar componentes y utilidades. 
+
+* Según Herbert Mayer, "un lenguaje útil necesita matrices, punteros y un mecanismo genérico para construir estructuras de datos". Según estos criterios, los scripts de shell no llegan a ser "útiles". O tal vez no. . . .
+
+* Usaremos Bash, un acrónimo [3] de "Bourne-Again shell" y un juego de palabras con el ahora clásico Bourne shell de Stephen Bourne. Bash se ha convertido en un estándar de facto para scripts de shell en la mayoría de las versiones de UNIX. La mayoría de los principios que cubre este libro se aplican igualmente bien a la programación con otros shells, como el Korn Shell, del cual Bash deriva algunas de sus características, [4] y el C Shell y sus variantes. (Tenga en cuenta que no se recomienda la programación en C Shell debido a ciertos problemas inherentes, como lo señaló Tom Christiansen en una publicación en Usenet de octubre de 1993).
+
+* Lo que sigue es un tutorial sobre scripts de shell. Se basa en gran medida en ejemplos para ilustrar diversas características del caparazón.
+
+
