@@ -24,3 +24,5 @@ Contents
    sed
    awk
    api
+   bash-02/doc01
+
