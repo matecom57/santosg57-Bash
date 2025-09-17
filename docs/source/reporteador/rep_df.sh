@@ -10,9 +10,8 @@ files=$(<hosts.dat)
 k=1
 for line in $files
 do
-  echo $line
-  ss=${line:0:10}
-  echo $ss
+  dd=$(echo line | cut -d ";" -f 1)
+  echo $dd
 #  if [[ "$ss" = "172.24.220" ]]; then
 #    echo $k " -- " ${line}
 #    ip=`echo ${line} | cut -d ' ' -f1`
