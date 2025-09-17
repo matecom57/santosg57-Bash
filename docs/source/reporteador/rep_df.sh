@@ -12,7 +12,7 @@ for line in $files
 do
   ip=$(echo $line | cut -d " " -f 1)
   nombre=$(echo $line | cut -d " " -f 3)
-  echo "=============== "$nombre" ================"
+  echo "==================================== "$nombre" ========================================="
   ./bash01.sh $ip
 #  if [[ "$ss" = "172.24.220" ]]; then
 #    echo $k " -- " ${line}
