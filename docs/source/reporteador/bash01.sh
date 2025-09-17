@@ -2,7 +2,7 @@
 
 ip=$1
 
-ssh santosg@${ip} <<'ENDSSH'
+sshpass -p carlos21 ssh santosg@${ip} <<'ENDSSH'
   df -h
 ENDSSH
 
