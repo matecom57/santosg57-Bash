@@ -13,7 +13,7 @@ d2 = '''</body>
 </html>
 '''
 
-filein = 'moca.txt'
+filein = 'datos.txt'
 fileon = 'reportreador.html'
 
 filin = open(filein,'r')
@@ -25,7 +25,7 @@ datos = filin.readlines()
 
 for ss in datos:
   ss = ss.replace('\n','')
-  if 'moca' in ss:
+  if '/datos' in ss or '/misc' in ss:
     ss1 = '<p>' + ss + '</p>\n'
     filon.write(ss1)
     print(ss)

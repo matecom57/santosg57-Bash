@@ -14,8 +14,7 @@ do
   ip=$(echo $line | cut -d " " -f 1)
   nombre=$(echo $line | cut -d " " -f 3)
   echo "==================================== "$nombre" ========================================="
-  ./fecha.sh 
-  ./df1.sh $ip
+  ./ls_misc.sh $ip $nombre
 done 
 
 
